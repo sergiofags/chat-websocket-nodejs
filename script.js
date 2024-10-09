@@ -82,7 +82,7 @@ const Login = async () => {
 
         chat.style.display = "flex"
 
-        websocket = new WebSocket("ws://localhost:8080")
+        websocket = new WebSocket("wss://api-ifsc.onrender.com")
         websocket.onmessage = processMessage
     } catch (error) {
         console.error("Erro ao buscar dados da API:", error)
