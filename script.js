@@ -80,8 +80,6 @@ const Login = async () => {
         user.photo = person.picture.large
         user.color = getRandomColor()
 
-        chat.style.display = "flex"
-
         websocket = new WebSocket("wss://api-ifsc.onrender.com")
         websocket.onmessage = processMessage
     } catch (error) {
