@@ -23,7 +23,7 @@ body {
 .chat {
     width: 500px;
     height: 100%;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
