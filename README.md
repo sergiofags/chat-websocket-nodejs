@@ -11,7 +11,15 @@ Este é um projeto de chat em tempo real desenvolvido com **Node.js**, **Express
 - [Socket.io](https://socket.io/)
 <br>
 
-## Como Executar o Projeto
+## Link Para Testar o Projeto Online!
+https://sergiofags.github.io/chat-websocket-nodejs/
+<br>
+<br>
+Espere alguns segundos para o servidor iniciar.
+<br>
+<br>
+
+## Como Executar o Projeto Na Sua Máquina!
 
 <strong>1 - Clone o repositório:</strong>
 <p>git clone https://github.com/sergiofags/chat-websocket-nodejs.git</p>
